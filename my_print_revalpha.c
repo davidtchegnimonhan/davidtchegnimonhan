@@ -1,18 +1,16 @@
-include <unistd.h>
+  
+void	my_putchar(char);
 
-int main (void)
-
+int	my_print_revalpha(void)
 {
-  int i=122
+    int i;
 
-
-  while (i = 97)
-
-
-    printf("%c\n", i);
-    i++;
-  }
-return 0;
-
+    i = 122;
+    while (i >= 97) {
+        my_putchar(i);
+        i = i - 1;
+    }
+    return (0);
+}
 
 
