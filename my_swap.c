@@ -1,16 +1,19 @@
 #include <stdio.h>
 
-void my_swap (int *a, int *b);
+void my_swap(int *a, int *b);
 {
-  int temp = 0;//B
+  int temp = 0;
 
      temp =*b
      *b =*a
      *a = temp
 }
 
-void my_putchar (char)
-int main(void);
+void my_putchar(char)
+{
+  write (1, &c, 1);
+}
+
 {
   int a = 15;
   int b = 16;
