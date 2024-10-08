@@ -14,7 +14,7 @@ char *my_strcpy(char *dest, char const *src)
 {
   my_putchar(*dest = src);
                  
-     while(src !=\'0'){
+     while(src !='\0'){
            dest++;
            src++;
      }
