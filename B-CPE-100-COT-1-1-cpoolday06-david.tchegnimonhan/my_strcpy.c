@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2024
 ** my_strcpy.c
 ** File description:
-** Task 01 - my_strcpy/c
+** Task 01 - my_strcpy.c
 */
 
 #include <stdio.h> 
