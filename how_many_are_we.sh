@@ -1,6 +1,13 @@
 #!/bin/bash
-echo bash "Nombre d'étudiants dans la ville" 
 
-student.csv
+echo "students.csv" 
+
+number=$(number of student at nancy)
+echo "The number of student at nancy is:"
+
+echo "number"
+
+echo $number
+
 
 
