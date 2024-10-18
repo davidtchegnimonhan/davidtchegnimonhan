@@ -4,20 +4,25 @@
 ** File description:
 ** 
 */
+ 
+#include <string.h>
+#include <stdio.h>
 
-#include <unstid.h> 
 
-void my_putchar(char c) {
-    write(1, &c, 1);
-}
-
-char *my_strcat(char *dest, char const *src);
+char *my_strcat(char *dest, char const *src)
 {
-    char *dest[] = {'d', 'a', 'v', 'i', 'd'};
-    write(1, 'david\n', 6);
+         char c;
+         
+    void my_putchar(char c); {
+        write(1, &c, 1);
+    }
     
-    char const *src[] = {'g', 'o', 'a', 't'};
-    write(1, 'goat\n', 5);
+    char a[30] = {'d', 'a', 'v', 'i', 'd'};
+    const char b[30] = {'g', 'o', 'a', 't'};
     
-    return(0)
+       strcat(a, b);
+    
+       write(1, "david goat\n", 13);
+    
+ return(0);
 }
