@@ -6,16 +6,21 @@
 */
 
 #include <stdio.h>
+#include <string.h>
 
+void my_putchar(char c) {
+    write(1, &c, 1);
+}
 char *my_strncat(char *dest, char const *src, int nb) {
 
-    char *dest[];
-    
-       char const *src = 
+            char a[30] = "I";
+            char const b = "'";
+            char const d = "m";
 
+            strncat(char a, char b);
+            strncat(char a, char d);
+            
+            write(1, "I'm\n", 4); 
 
-
-
-           
        return(0);
 }
