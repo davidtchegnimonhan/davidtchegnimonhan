@@ -10,7 +10,7 @@
 
 int my_strcmp(char *strg1, char *strg2)
 {
-    while( ( *strg1 != '\0' && *strg2 != '\0' ) && *strg1 == *strg2 )
+    while((*strg1 != '\0' && *strg2 != '\0') && *strg1 == *strg2)
     {
         strg1++;
         strg2++;
@@ -18,7 +18,7 @@ int my_strcmp(char *strg1, char *strg2)
 
     if(*strg1 == *strg2)
     {
-        return 0; // strings are identical
+        return 0; 
     }
 
     else
