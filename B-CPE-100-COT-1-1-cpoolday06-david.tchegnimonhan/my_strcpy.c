@@ -2,23 +2,19 @@
 ** EPITECH PROJECT, 2024
 ** my_strcpy.c
 ** File description:
-** Task 01 - my_strcpy.c
+** a function that copies a string into another
 */
 
-#include <stdio.h> 
+#include <stdio.h>
 #include <string.h>
 
-
-
-char *my_strcpy(char *dest, char const *src)
+char *strcpy(char *dest, const char *src)
 {
-  my_putchar(*dest = src);
-                 
-     while(src !='\0'){
-           dest++;
-           src++;
-     }
+    int a = 0;
 
-     return (dest)
+    while (src[a]) {
+        dest[a] = src[a];
+        a++;
+    }
+    return (dest);
 }
-
