@@ -19,8 +19,6 @@ Mes writeups Hack The Box (Starting Point, Machines, Challenges...).
 
 ---
 
-### 🚩 CTF & certifications
-
 - Hack The Box : `@gargamell`
 - TryHackMe : `davidtchegnimonhan`
 
